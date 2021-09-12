@@ -1,0 +1,8 @@
+.DS_Store
+docs/_build
+*.sublime-workspace
+*.egg-info
+.eggs
+build/*
+docs/_build
+marke37/__pycache__
