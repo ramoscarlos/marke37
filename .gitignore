@@ -6,3 +6,4 @@ docs/_build
 build/*
 docs/_build
 marke37/__pycache__
+dist/
