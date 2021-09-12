@@ -4,13 +4,11 @@
 
 import unittest
 from pprint import pprint
-import sys
-sys.path.insert(0, '../')
-from letra_latex import LetraLaTeX
+from ..letra_latex import LetraLaTeX
+from .test_letra_base import TestLetraBase
 
 
-
-class TestLetraLaTeX(unittest.TestCase):
+class TestLetraLaTeX(TestLetraBase):
     def test_letra_latex_se_puede_instanciar(self):
         letra = LetraLaTeX()
 

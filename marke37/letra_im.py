@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # Copyright (c) 2021 Carlos Ramos.
 
-from linea import Linea
-from seccion import Seccion
-from letra import Letra
+from marke37.linea import Linea
+from marke37.seccion import Seccion
+from marke37.letra import Letra
 
 class LetraIM(Letra):
     _diccionario = {

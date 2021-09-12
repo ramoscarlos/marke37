@@ -4,7 +4,6 @@
 
 import unittest
 from pprint import pprint
-import sys
 from ..letra import Letra
 from .test_letra_base import TestLetraBase
 

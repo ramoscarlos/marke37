@@ -5,7 +5,6 @@
 import unittest
 from pprint import pprint
 import sys
-
 from ..linea import Linea
 from ..seccion import Seccion
 
@@ -268,7 +267,7 @@ class TestSeccion(unittest.TestCase):
             seccion.bloque[2].texto_transformado
         )
 
-        def test_cantidad_de_lineas(self):
+    def test_cantidad_de_lineas(self):
 
         seccion = Seccion()
         seccion.agregar_linea("**_Primera línea de outro")

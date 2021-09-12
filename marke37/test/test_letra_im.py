@@ -4,10 +4,8 @@
 
 import unittest
 from pprint import pprint
-import sys
-sys.path.insert(0, '../')
-from letra_im import LetraIM
-from test_letra_base import TestLetraBase
+from ..letra_im import LetraIM
+from .test_letra_base import TestLetraBase
 
 class TestLetraIM(TestLetraBase):
     def test_letra_im_se_puede_instanciar(self):
@@ -90,3 +88,7 @@ class TestLetraIM(TestLetraBase):
         contenido = self._leer_archivo(nombre_archivo)
 
         return letra.leer(contenido)
+
+
+if __name__ == '__main__':
+    unittest.main()
